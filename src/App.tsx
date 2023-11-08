@@ -29,7 +29,6 @@ function App() {
     searchMovie()
   }, [])
   
-  console.log('new', movies);
   
   return (
     <div className="app">
