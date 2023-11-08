@@ -26,7 +26,7 @@ function App() {
   }
 
   useEffect(() => {
-    searchMovie('batman')
+    searchMovie()
   }, [])
   
   console.log('new', movies);
@@ -44,11 +44,12 @@ function App() {
           
         />
 
-        <img
-          src={''} 
-          alt="search" 
-          onClick={() => searchMovie(search)}
+        <img width="50" height="50" 
+        src="https://img.icons8.com/ios/50/search--v1.png" 
+        alt="search--v1"
+        onClick={() => searchMovie(search)}
         />
+
       </div>
 
       {
